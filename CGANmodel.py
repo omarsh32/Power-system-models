@@ -74,7 +74,7 @@ PQ_BUSES = (0, 1)
 # Each PJM load area becomes one pseudo-bus. P is real measured MW load as negative injection.
 # Q is estimated using an assumed power factor.
 RUN_PJM_REAL_TEST = True
-PJM_REAL_CSV_PATH = r"C:\Users\omar shadafny\Desktop\Omar_Elinor\pjm_hrl_load_metered_1_1_3_23_2024.csv"
+PJM_REAL_CSV_PATH = r"pjm_hrl_load_metered_1_1_3_23_2024.csv"
 PJM_POWER_FACTOR = 0.95
 PJM_SAVE_PLOTS = True
 PJM_PLOT_BUSES = (0, 1)
