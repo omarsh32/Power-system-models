@@ -57,7 +57,7 @@ OUT_ROOT  = r"realdata_cvae_1"
 
 # External REAL measured load data test: PJM hourly metered load
 # Each PJM load area is treated as a pseudo-bus.
-PJM_REAL_CSV_PATH = r"C:\Users\omar shadafny\Desktop\Omar_Elinor\pjm_hrl_load_metered_1_1_3_23_2024.csv"
+PJM_REAL_CSV_PATH = r"pjm_hrl_load_metered_1_1_3_23_2024.csv"
 RUN_PJM_REAL_TEST = True
 PJM_POWER_FACTOR = 0.95
 PJM_USE_TOP_N_LOAD_AREAS = None  # None = use all load_area values; or set e.g. 30
