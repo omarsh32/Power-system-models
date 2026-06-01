@@ -34,12 +34,12 @@ warnings.filterwarnings("ignore", category=UserWarning)
 # =========================================================
 # CONFIG
 # =========================================================
-DATA_ROOT = r"C:\Users\omar shadafny\Desktop\Omar_Elinor\data\extracted_datasets\gridopt-dataset-tmp\dataset_release_1\pglib_opf_case118_ieee"
-OUT_ROOT  = r"C:\Users\omar shadafny\Desktop\Omar_Elinor\realdata_mlb_final"
+DATA_ROOT = r"DATA_FOLDER"
+OUT_ROOT  = r"realdata_mlb_final"
 
 # External REAL measured load data test: PJM hourly metered load
 # Download/copy your CSV here, or change this path to where the file is on your PC.
-PJM_REAL_CSV_PATH = r"C:\Users\omar shadafny\Desktop\Omar_Elinor\pjm_hrl_load_metered_1_1_3_23_2024.csv"
+PJM_REAL_CSV_PATH = r"pjm_hrl_load_metered_1_1_3_23_2024.csv"
 RUN_PJM_REAL_TEST = True
 PJM_POWER_FACTOR = 0.95
 PJM_USE_TOP_N_LOAD_AREAS = None  # None = use all load_area values; or set e.g. 30
