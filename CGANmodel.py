@@ -44,8 +44,8 @@ warnings.filterwarnings("ignore", category=UserWarning)
 # =========================================================
 # CONFIG
 # =========================================================
-DATA_ROOT = r"C:\Users\omar shadafny\Desktop\Omar_Elinor\data\extracted_datasets\gridopt-dataset-tmp\dataset_release_1\pglib_opf_case118_ieee"
-OUT_ROOT  = r"C:\Users\omar shadafny\Desktop\Omar_Elinor\realdatacgan"
+DATA_ROOT = r"DATA_FOLDER"
+OUT_ROOT  = r"realdatacgan"
 
 TRAIN_FOLDERS = 1
 TEST_FOLDERS  = 1
