@@ -52,8 +52,8 @@ import matplotlib.pyplot as plt
 warnings.filterwarnings("ignore", category=UserWarning)
 
 # ======================== CONFIG ========================
-DATA_ROOT = r"C:\Users\omar shadafny\Desktop\Omar_Elinor\data\extracted_datasets\gridopt-dataset-tmp\dataset_release_1\pglib_opf_case118_ieee"
-OUT_ROOT  = r"C:\Users\omar shadafny\Desktop\Omar_Elinor\realdata_cvae_1"
+DATA_ROOT = r"DATA_FOLDER"
+OUT_ROOT  = r"realdata_cvae_1"
 
 # External REAL measured load data test: PJM hourly metered load
 # Each PJM load area is treated as a pseudo-bus.
